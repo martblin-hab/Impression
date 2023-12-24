@@ -1,0 +1,244 @@
+html, body {
+    height: 100%;
+    width: 1920px;
+}
+
+/*Шапка сайта*/
+
+.header{
+    width: 1907px;
+}
+        
+.menu {
+    position: relative;
+    width: 1903px;
+    height: 80px;
+    left: -8px;
+    top: -8px;
+    background-color: #212B22;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 79px;
+    margin-top: -1px;
+    margin-left: 300px;
+}
+
+.header__nav {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    left: 1265px;
+    top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}   
+
+.header__link {
+    color: #FFFBF2;
+    text-decoration: none;
+}
+
+/*Фотографии галереи*/
+
+.photo{
+    width: 1907px;
+    height: 1076px;
+    background-color: #212A22;
+    position: relative;
+    left: -13px;
+    top: -35px;
+}
+
+.photo img{
+    position: relative;
+    left: 295px;
+    top: 89px;
+    filter: brightness(64%);
+}
+
+.photo h1{
+    position: relative;
+    left: 295px;
+    top: 89px;
+}
+
+/*Карта*/
+
+.karta{
+    width: 1907px;
+    height: 605px;
+    background-color: #212A22;
+    position: relative;
+    left: -13px;
+    top: -62px;
+}
+
+h1{
+    color: #FFFBF2;
+    font-size: 32px;
+}
+
+.karta img{
+    position: relative;
+    left: 295px;
+    top: 89px;
+    filter: brightness(64%);
+}
+
+.karta h1{
+    position: relative;
+    left: 295px;
+    top: 89px;
+}
+
+p{
+    font-size: 24px;
+    color: #FFFBF2;
+}
+
+.karta p{
+    position: relative;
+    left: 1175px;
+    top: -349px;
+}
+
+/*Мастер класс*/
+
+.master_class{
+    width: 1907px;
+    height: 897px;
+    background-color: #212A22;
+    position: relative;
+    left: -13px;
+    top: -90px;
+}
+
+.master_class h1{
+    position: relative;
+    left: 295px;
+    top: 29px;
+}
+
+.text_class1 p{
+    position: relative;
+    left: 70px;
+    top: 49px;
+}
+
+.klass1{
+    position: relative;
+    left: 95px;
+    top: 49px;
+    filter: brightness(64%);
+} 
+
+.button1{
+    position: relative;
+    left: 165px;
+    top: 49px;
+}
+
+.klass2{
+    position: relative;
+    left: 675px;
+    top: -642px;
+    filter: brightness(64%);
+}
+
+.text_class2 P{
+    position: relative;
+    left: 653px;
+    top: -646px;
+}
+
+.button2{
+    position: relative;
+    left: 766px;
+    top: -652px;
+}
+
+.klass3{
+    position: relative;
+    left: 1305px;
+    top: -1409px;
+    filter: brightness(64%);
+}
+
+.text_class3{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 13px;
+    top: -5px;
+}
+
+.text_class3 P{
+    position: relative;
+    left: 1272px;
+    top: -1412px;
+    width: 600px;
+    height: 600px;
+}
+
+.button3 img{
+    position: relative;
+    left: 1399px;
+    top: -1695px;
+}
+
+
+/*Подвал сайта*/
+
+footer{
+    height: 500px;
+}
+.podval{
+    width: 1907px;
+    height: 559px;
+    background-color: #37493A;
+    position: relative;
+    top: -90px;
+    left: -12px;
+}
+
+.groza{
+    position: relative;
+    top: 266px;
+    left: -1px;
+}
+
+.text1_footer{
+    color: #FFFBF2;
+    position: relative;
+    top: -610px;
+    left: 140px;
+    font-size: 24px;
+}
+
+.text2_footer{
+    color: #FFFBF2;
+    position: relative;
+    top: -716px;
+    left: 690px;
+    font-size: 24px;
+}
+
+.text3_footer{
+    color: #FFFBF2;
+    position: relative;
+    top: -827px;
+    left: 1290px;
+    font-size: 24px;
+}

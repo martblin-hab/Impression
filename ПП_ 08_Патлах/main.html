@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css2/style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/2421f70b85.js" crossorigin="anonymous"></script>
+    <title>Импрессия</title>
+</head>
+<body>
+    <header>
+        <a name="menu">
+        <div class="menu">
+            <div class="header__logo">
+                <a href="#menu"><img class="logo" src="img2/Logo.png"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a class="header__link" href="main.html">Главная</a></li>
+                    <li><a class="header__link" href="prices/prices.html">Цены</a></li>
+                    <li><a class="header__link" href="about/about.html">О нас</a></li>
+                </ul>
+            </nav>    
+        </div>
+        </a>
+    </header>
+    <main>
+        <section class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img2/Slider1.jpg">
+                    <h1 class=tekst1>Выставка<br>“Альфонс Муха:<br> Искусство <br>и элигантность”</h1>
+                    <h1 class="tekst2">12.08.2023<br>
+                        12.09.2023
+                    </h1>
+                    <div class="pomoshch__v__vybore">
+                        <h1 class="tekst3">Не знаете какую выставку выбрать?<br>
+                            Наш помошник поможет выбрать
+                            <br>вам идеальную выставку</h1>
+                        <form>
+                            <input class="email" type="email" name="login" placeholder="Введите ваш Email">
+                            <input class="button__submit" type="submit" value="Выбрать выставку">
+                        </form>
+                    </div>
+                </div>    
+                <div class="swiper-slide"><img src="img2/Slider2.jpg">
+                    <h1 class="tekst4">“Ван Гог:<br>гений или безумец?” </h1>
+                    <h1 class="tekst6">10.10.2023<br>
+                        10.11.2023<br>
+                    </h1>
+                </div>  
+                <div class="swiper-slide"><img src="img2/Slider3.jpg">
+                    <h1 class="tekst4">"Мир мечты:<br>выставка работ Вильяма Уотерхауса"</h1>
+                    <h1 class="tekst5">12.11.2023<br>
+                    12.12.2024<br>
+                </h1>
+                </div>
+                <div class="swiper-slide"><img src="img2/Slider4.jpg">
+                    <h1 class="tekst4">"Переживание природы:<br>выставка работ Альберта Бирштадта"</h1>
+                    <h1 class="tekst5">13.12.2023<br>
+                    13.01.2024<br>
+                </h1>
+                </div> 
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+            </script>
+        </section>
+                                                                        
+        <section class="history">
+          <div class="poloska">
+            <div class="zogolovok"> 
+            <h1 >История художественной галереи </h1>
+        </div> 
+        <div class="text">
+            <p>
+                Однажды в небольшом городке жил человек по имени Александр. 
+                Он <br>был большим ценителем искусства и всегда мечтал создать свою <br>художественную галерею,
+                где люди смогут наслаждаться <br>произведениями известных художников.
+                <br>
+                <br>Александр начал свой путь к созданию галереи ещё в юности, когда он <br>увлекся рисованием. 
+                С годами его интерес к искусству только <br>усиливался, и он начал собирать коллекцию картин,
+                которые <br>понравились ему больше всего.
+            </p>
+        </div>
+            <div class="venera">
+                <img src="img2/venera.jpg">
+            </div>
+          </div>  
+        </section>
+
+        <section class="Artists">
+            <div class="artists1">
+                <img src="img2/Artists11.svg">
+            </div>
+            <div class="artists2">
+                <img src="img2/Artists12.svg">
+            </div>
+        </section>
+<footer>
+    <div class="podval">
+      <div class="groza">
+        <img src="img2/podval.jpg">
+      </div>
+    </div>
+    <div class="text1_footer">
+        <p>
+            Мы в сотсетях
+            <br>Вконтакте 
+            <br>Telegram
+        </p>
+    </div>
+    <div class="text2_footer">
+        <p>
+            Контакты
+            <br>Телефон: +7 (ххх) ххх хххх
+            <br>Почта: impression@gmail.com
+        </p>
+    </div>
+    <div class="text3_footer">
+        <p>
+            Адрес 
+            <br>Санкт-Петербург, 13-я линия Васильевского 
+            <br>острова, 70 
+        </p>
+    </div>
+</footer>
+</body>
+ </html>
+
